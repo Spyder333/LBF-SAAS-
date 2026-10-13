@@ -1,0 +1,118 @@
+{
+  "customers": [
+    {
+      "id": "cust-1791801292411",
+      "companyName": "Pasific ltd",
+      "contactPerson": "Mr Mufa",
+      "email": "pshq@yahoo.com",
+      "phone": "0123456789",
+      "address": "",
+      "city": "Bindura",
+      "taxNumber": "VAT-1234987650",
+      "equipmentFleet": [
+        {
+          "id": "eq-1791801282037",
+          "make": "Other",
+          "model": "5869QM",
+          "type": "Truck ",
+          "pinBoreSpecs": "333mm"
+        }
+      ],
+      "balanceDue": 12420,
+      "createdAt": "2026-10-12"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "inv-1791877405749",
+      "invoiceNumber": "LBF-2026-044",
+      "customerId": "cust-1791801292411",
+      "customerName": "Pasific ltd",
+      "customerEmail": "pshq@yahoo.com",
+      "customerAddress": ", Bindura",
+      "customerTaxNumber": "VAT-1234987650",
+      "serviceCategory": "new_bucket_fabrication",
+      "date": "2026-10-13",
+      "dueDate": "2026-11-27",
+      "equipmentInfo": "Other 5869QM (Truck )",
+      "items": [
+        {
+          "id": "item-1791877361542-1",
+          "serviceCategory": "new_bucket_fabrication",
+          "description": "Fabrication of Heavy-Duty Rock Bucket Shell (Hardox 450/500)",
+          "quantity": 3.5,
+          "unit": "m³ cap.",
+          "unitPrice": 2400,
+          "formulaUsed": "3.5m³ * $2400/m³ shell",
+          "total": 8400
+        },
+        {
+          "id": "item-1791877361542-2",
+          "serviceCategory": "line_boring_fabrication",
+          "description": "Ear Bracket Precision Line Boring to Excavator Kinematic Specs",
+          "quantity": 1,
+          "unit": "bucket",
+          "unitPrice": 950,
+          "formulaUsed": "Bore Ears Flat",
+          "total": 950
+        },
+        {
+          "id": "item-1791877361542-3",
+          "serviceCategory": "parts_materials",
+          "description": "Heavy Wear Package (Heel Shrouds, Chocky Bars & Lip Shrouds)",
+          "quantity": 1,
+          "unit": "package",
+          "unitPrice": 1450,
+          "formulaUsed": "GET Wear Package",
+          "total": 1450
+        }
+      ],
+      "subtotal": 10800,
+      "taxRate": 0.15,
+      "taxAmount": 1620,
+      "discountRate": 0,
+      "discountAmount": 0,
+      "total": 12420,
+      "depositPaid": 0,
+      "balanceDue": 12420,
+      "status": "pending",
+      "notes": "Machined to factory tolerance ±0.02mm. NDT crack tested and certified.",
+      "terms": "Strictly 14 days from completion. All workmanship guaranteed.",
+      "createdAt": "2026-10-13",
+      "createdBy": "DAVIDROSS",
+      "paymentTerms": "14 days",
+      "depositRequired": 0,
+      "financingStatus": "pending",
+      "paymentHistory": []
+    }
+  ],
+  "jobs": [],
+  "quotes": [],
+  "inventory": [
+    {
+      "id": "stock-1791878026584",
+      "name": "grinders",
+      "quantity": 3,
+      "supplier": "electro cells",
+      "unitCost": 60,
+      "reorderLevel": 0,
+      "usedQuantity": 0,
+      "updatedAt": "2026-10-13T07:53:46.584Z",
+      "updatedBy": "TSHUMBA"
+    },
+    {
+      "id": "stock-1791877697850",
+      "name": "rodes",
+      "quantity": 0,
+      "supplier": "gfd",
+      "unitCost": 100,
+      "reorderLevel": 2,
+      "usedQuantity": 5,
+      "updatedAt": "2026-10-13T07:49:19.166Z",
+      "updatedBy": "TSHUMBA"
+    }
+  ],
+  "tasks": [],
+  "communications": [],
+  "spreadsheets": []
+}
