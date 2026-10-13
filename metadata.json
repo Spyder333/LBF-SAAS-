@@ -1,0 +1,8 @@
+{
+  "name": "LBF Solutions - Industrial Machining & Line Boring SaaS Portal",
+  "description": "Multi-tenant SaaS application for heavy mobile line boring, automated invoicing, customer fleet database, engineering formula calculations, with multi-server switching and 100% offline field operation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
